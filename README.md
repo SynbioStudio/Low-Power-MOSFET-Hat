@@ -12,9 +12,12 @@ On the desktop screen, click on the Raspberry Pi icon in the top left corner. Cl
 
 # Installing the Relevant Libraries:
 Make sure you are connected to the internet. From your command line run the following command:
+	
 	sudo pip3 install adafruit-circuitpython-mcp230xx
 
 # Setting the I2C Address for the Driver Board:
 Setting distinct I2C addresses will enable you to use multiple driver boards by simply stacking them. The default address in 0x20. Dip switches built into the board allow you to set the I2C address to 0x20 + binary number set by toggling the switches. From your command line run the following command:
+	
 	i2cdetect -y 1
+	
 Make sure you see the address which you have set appears on the output.
