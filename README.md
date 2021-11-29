@@ -1,5 +1,5 @@
 # Product Description:
-The low-power MOSFET Hat is designed as an IO expander for actuating small DC devices (e.g. DC motors, pumps and valves). It uses I2C as the communication protocol enabling up to 8 boars to be used at once (i.e. 64 devices can be controlled simultaneously)!
+The low-power MOSFET Hat is designed as an IO expander for actuating small DC devices (e.g. DC motors, pumps and valves). Each board can control up to 8 devices. The module uses I2C as the communication protocol enabling up to 8 boards to be used at once (i.e. 64 devices can be controlled simultaneously)!
 
 # Warning:
 Do not use devices that draw over 8 W per MOSFET. At 12 V this would 0.667 A per device. We have built a high-power version of this board, which can handle up to 150 W; for higher power device we would recommend using this alternate board. 
